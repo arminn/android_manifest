@@ -7,6 +7,8 @@
 
   <remote  name="github" fetch="git://github.com/xen-troops/"
            revision="android-10.0.0_r3-master" />
+  <remote  name="arminn" fetch="git://github.com/arminn/"
+           revision="android-10.0.0_r3-master" />
 
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/"
@@ -27,7 +29,7 @@
            sync-j="4" />
   
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="arminn" revision="mr_android-10-security-only-test" />
   <project path="vendor/xen/audio" name="android_vendor_xen_audio" remote="github" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
