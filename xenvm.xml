@@ -35,8 +35,8 @@
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
 
   <!-- Security -->
-  <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="4046e67356f96b90e43f92c76599001d81ab84f9" />
-  <project path="vendor/linaro/optee_client" name="optee_client" remote="op-tee" revision="be4fa2e36f717f03ca46e574aa66f697a897d090" />
+  <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="900f48a6d24ba523268bc6ac1678d5e9f7b7e3c4" />
+  <project path="vendor/linaro/optee_client" name="optee_client" remote="op-tee" revision="e9e55969d76ddefcb5b398e592353e5c7f5df198" />
   <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="master" />
 
 </manifest>
