@@ -37,6 +37,6 @@
   <!-- Security -->
   <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="900f48a6d24ba523268bc6ac1678d5e9f7b7e3c4" />
   <project path="vendor/linaro/optee_client" name="optee_client" remote="op-tee" revision="e9e55969d76ddefcb5b398e592353e5c7f5df198" />
-  <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="master" />
+  <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="0530d241298d7987c7cc222cfccaf1cae34eb5f5" />
 
 </manifest>
