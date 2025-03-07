@@ -3,11 +3,12 @@
   <!-- Remotes -->
   <remote name="github" fetch="https://github.com/xen-troops/" />
   <remote name="github_svlad_90" fetch="https://github.com/svlad-90/" />
+  <remote name="github_arminn" fetch="https://github.com/arminn/" />
   <remote name="epam" fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
 
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github_svlad_90" revision="android-14-prod-cockpit-rcar-v4h" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github_arminn" revision="android-14-prod-cockpit-rcar-v4h" />
 
   <!-- Tools for testing -->
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="cf52866ec8c487f562fe8c9fd0a8b7b3f3d4c5bb" />
