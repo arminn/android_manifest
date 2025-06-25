@@ -2,6 +2,7 @@
 
   <!-- Remotes -->
   <remote  name="github" fetch="https://github.com/xen-troops/"/>
+  <remote  name="a" fetch="https://github.com/arminn/"/>
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
@@ -9,7 +10,8 @@
   <remote name="rel" fetch="https://partnergitlab.renesas.solutions/v4h-fusion-poc/"/>
 
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="android-14-v4h-main" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="a" revision="mr_evs_v4h-1" />
+  <project path="vendor/xen/evs" name="android_vendor_xen_evs"  remote="a" revision="mr_evs_v4h-1" />
 
   <!-- Tools for testing -->
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="cf52866ec8c487f562fe8c9fd0a8b7b3f3d4c5bb" />
