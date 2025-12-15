@@ -1,4 +1,4 @@
 <manifest>
     <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
-    <project path="vendor/imagination/rogue_um/" name="v4h-fusion-poc/pvr" remote="rs" revision="android-ddk24-um-bin-test-1"/>
+    <project path="vendor/imagination/rogue_um/" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="24.2_RTM2_6643903-android-15-bin-main"/>
 </manifest>
