@@ -1,0 +1,8 @@
+<manifest>
+    <remote name="github" fetch="https://github.com/"/>
+    <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
+    <remote name="a" fetch="git@github.com:arminn/"/>
+    <project path="device/epam/aosp-xenvm-trout" name="android_device_epam_xenvm-trout" remote="a" revision="16-2"/>
+    <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="48656eb1a8fc8c4a28fd37a1618183a0de5d4d3d"/>
+    <project path="vendor/epam/hwc" name="xen-troops/android_external_drm_hwcomposer" remote="github" revision="android-16-xenvm-trout-ih-main"/>
+</manifest>
